@@ -1,1 +1,69 @@
-my gallery
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Premium Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <h2>MyGallery</h2>
+  <div>
+    <button id="loginBtn" class="btn">Login</button>
+<button id="startBtn" class="btn">Get Started</button>
+  </div>
+</nav>
+<!-- Hero Section -->
+<section class="hero">
+  <h1>Discover <span>Photo Gallery</span></h1>
+  <p>Search and explore beautiful images from the internet</p>
+
+  <input type="text" id="search" placeholder="🔍 Search images...">
+
+  <!-- Filters -->
+  <div class="filters">
+    <button class="active" onclick="filterImages('all', this)">All</button>
+    <button onclick="filterImages('nature', this)">Nature</button>
+    <button onclick="filterImages('city', this)">City</button>
+    <button onclick="filterImages('food', this)">Food</button>
+  </div>
+</section>
+
+<!-- Gallery -->
+<section class="gallery" id="gallery">
+
+  <!-- Default Cards -->
+  <div class="card nature">
+    <img src="https://picsum.photos/id/1015/400">
+    <h3>Mountain View</h3>
+  </div>
+
+  <div class="card city">
+    <img src="https://picsum.photos/id/1012/400">
+    <h3>City Lights</h3>
+  </div>
+
+  <div class="card food">
+    <img src="https://picsum.photos/id/1080/400">
+    <h3>Delicious Food</h3>
+  </div>
+
+</section>
+
+<!-- Loader -->
+<div id="loader" class="loader hidden">Loading...</div>
+<!-- Login Modal -->
+<div id="loginModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h2>Login</h2>
+    <input type="text" placeholder="Username">
+    <input type="password" placeholder="Password">
+    <button class="btn">Login</button>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
