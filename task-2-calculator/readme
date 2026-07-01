@@ -1,0 +1,42 @@
+# 🧮 Online Calculator
+
+A simple and modern **Online Calculator** built using HTML, CSS, and JavaScript.
+It performs basic arithmetic operations with a clean and responsive UI.
+
+---
+
+## 🚀 Features
+
+* Addition (+)
+* Subtraction (−)
+* Multiplication (×)
+* Division (÷)
+* Square root (√)
+* Percentage (%)
+* Inverse (1/x)
+* Plus/Minus toggle (+/-)
+* Dark / Light theme toggle 🌗
+* Responsive design for all devices
+
+---
+
+## 🌐 Live Demo 
+
+http://127.0.0.1:5500/index.html
+
+
+---
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript (Vanilla JS)
+
+---
+
+## 👨‍💻 Author
+
+* Name: payal korde
+* Internship Project: Code Alpha
+
