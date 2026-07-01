@@ -1,1 +1,33 @@
+# 🌄 Image Gallery Web App
 
+A modern, responsive, and dynamic **Image Gallery Website** built using **HTML, CSS, and JavaScript**, powered by the **Unsplash API**.
+
+---
+
+## 🚀 Live Demo
+
+🌍 http://127.0.0.1:5500/index.html
+
+---
+
+## 📸 Features
+
+✨ Clean & modern UI  
+🔍 Search images using Unsplash API  
+🎯 Filter images by category (Nature, City, Food)  
+🖼 Dynamic image loading  
+⚡ Fast & smooth animations  
+🔐 Login popup interface  
+📱 Fully responsive (mobile + desktop)  
+🎨 Hover effects & transitions  
+
+---
+
+## 🛠 Tech Stack
+
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla JS)  
+- Unsplash API  
+
+---
